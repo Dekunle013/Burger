@@ -122,3 +122,23 @@ main > section:nth-child(2) {
   justify-content: center;
   align-items: center;
 }
+
+main div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 325px;
+  height: auto;
+}
+
+main div > a:nth-child(1) {
+  text-decoration: none;
+  background-color: #571A00;
+  color: #fff;
+  width: 147px;
+  height: 56px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

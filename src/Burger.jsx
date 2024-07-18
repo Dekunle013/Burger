@@ -35,6 +35,12 @@ const Burger = () => {
             <span>
               Crafting Culinary Bliss, One Bite at a Time, Unleashing Flavourful, Joy in Every Bite of burger
             </span>
+
+            <div>
+              <a href="#">Get Started</a>
+
+              <a href="#">Watch Demo</a>
+            </div>
           </section>
 
           <section>
