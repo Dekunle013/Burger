@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.parent {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://s3-alpha-sig.figma.com/img/1f3b/ecce/0364415ae7781d90674979fa0c67b84b?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HdtNoBaxCZZaP4SbkcZh8NI5PrZWwWiWksYk95hIY-O~OolCyJ8V5RJg6x18a6GFQH2~XiUlr7Ydm31TzskJRR6JJMkeTfv0HOZJXSqTZKtM7xTaRl5eA73tCdRNoRLjBgggO78JjqJFxBeIGk8qvS-QLZ8JlTBVce7FkMTJNcTAMMKonwGGv~3DxMhsOqeAn9nCjDEy243nlSh8PcT1AyYCoSNzywdhLIrUXaIuiUCZrrLLF~a4ENBmgIv96eg20iTWEm1lpLeaRyHfvg54ssjSb5zu41jCUZISlzbb8qTJnKUKYYctSFZJ7H0wcYWg8P5bksadvUp593YLQ6K90A__);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+nav section {
+  border: 1px solid green;
+  height: 125px;
+}
+
+nav > section:nth-child(1) {
+  display: flex;
+}
+
+nav > section:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > section:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
