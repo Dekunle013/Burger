@@ -10,7 +10,7 @@ body {
 
 .parent {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-image: url(https://s3-alpha-sig.figma.com/img/1f3b/ecce/0364415ae7781d90674979fa0c67b84b?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HdtNoBaxCZZaP4SbkcZh8NI5PrZWwWiWksYk95hIY-O~OolCyJ8V5RJg6x18a6GFQH2~XiUlr7Ydm31TzskJRR6JJMkeTfv0HOZJXSqTZKtM7xTaRl5eA73tCdRNoRLjBgggO78JjqJFxBeIGk8qvS-QLZ8JlTBVce7FkMTJNcTAMMKonwGGv~3DxMhsOqeAn9nCjDEy243nlSh8PcT1AyYCoSNzywdhLIrUXaIuiUCZrrLLF~a4ENBmgIv96eg20iTWEm1lpLeaRyHfvg54ssjSb5zu41jCUZISlzbb8qTJnKUKYYctSFZJ7H0wcYWg8P5bksadvUp593YLQ6K90A__);
   background-size: cover;
   background-position: center;
@@ -86,4 +86,39 @@ nav > section:nth-child(3) > a:nth-child(2) {
   font-weight: 500;
   font-size: 19px;
   line-height: 28.5px;
+}
+
+main {
+  display: flex;
+}
+
+main > section:nth-child(1) {
+  width: 50%;
+  height: auto;
+  padding: 70px 0 10px 70px;
+}
+
+main > section:nth-child(1) h1 {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 96px;
+  width: 741px;
+}
+
+main > section:nth-child(1) span {
+  /* max-width: 674px; */
+  height: 72px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2D0000;
+}
+
+main > section:nth-child(2) {
+  width: 50%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

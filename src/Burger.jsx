@@ -25,6 +25,22 @@ const Burger = () => {
             <a href="#">Sign Up</a>
           </section>
         </nav>
+        
+        <main>
+          <section>
+            <h1>
+              Enjoy Every Burger Bite Your Happiness
+            </h1>
+
+            <span>
+              Crafting Culinary Bliss, One Bite at a Time, Unleashing Flavourful, Joy in Every Bite of burger
+            </span>
+          </section>
+
+          <section>
+            <img src="https://s3-alpha-sig.figma.com/img/efd7/a250/7985a50033b0ce38834481a8846b9552?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dlG2aXCd9PnmiDVcUs~YalWB5hrD50q7CC2uvg14keWpOXrHncebXvU0UJSibQgXaICd7uRsU9MRqJpSbJlFgiyoCEu21PDVfymOZQcCBc~oXNNqHHXBHWa4IBzWcjSYqB3YvIqETct9ADa9NiyJCyzzvd66203enzhg6hyriiHxBvXDXrivh8whyff~Oo~g5TAmRbDV1DwNAghcO87akCZHy5cEUhC29blBzlYWmlL2EnLfZlZ9W6bFIIRMCkD6CVP60yULzzbWfULzpovK8yKHOEeV2UXj8doCeVWNPdLHhFO~y97hpWfvk8E35Qzs5-cGqS6DKI5it58~SrocgA__" alt="" />
+          </section>
+        </main>
       </div>
     </>
   )
