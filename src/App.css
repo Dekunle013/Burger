@@ -22,10 +22,9 @@ nav {
   grid-template-columns: repeat(3, 1fr);
 }
 
-nav section {
-  border: 1px solid green;
+/* nav section {
   height: 125px;
-}
+} */
 
 nav > section:nth-child(1) {
   display: flex;
@@ -54,6 +53,37 @@ nav > section:nth-child(2) a {
 
 nav > section:nth-child(3) {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  padding: 30px;
+}
+
+nav > section:nth-child(3) > a:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #571A00;
+  color: #fff;
+  width: 118px;
+  height: 45px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+nav > section:nth-child(3) > a:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #571A00;
+  color: #571A00;
+  width: 118px;
+  height: 45px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 28.5px;
 }
